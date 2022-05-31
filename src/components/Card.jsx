@@ -4,7 +4,7 @@ import { Text, Heading, Box, Flex } from "@chakra-ui/react";
 const Card = ({ task, description, date }) => {
   return (
     <>
-      <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+      <Box maxW="sm" borderWidth="3px" borderRadius="lg" overflow="hidden">
         <Heading fontSize={"2xl"} paddingTop="2">
           {task}
         </Heading>
